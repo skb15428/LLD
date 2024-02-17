@@ -1,4 +1,4 @@
-package Design_Patterns.Behavioural_design_patterns.Strategy_pattern_java_builtin;
+package Design_Patterns.Behavioural_design_patterns.Observer_pattern_java_builtin;
 
 import java.util.Observable;
 
