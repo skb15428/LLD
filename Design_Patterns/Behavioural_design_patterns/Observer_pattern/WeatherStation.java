@@ -10,7 +10,7 @@ import Design_Patterns.Behavioural_design_patterns.Observer_pattern.Observer.Tem
 
 public class WeatherStation {
     public static void main(String args[]){
-        WeatherDataObservable observable = new WeatherDataObservable();
+        Observable observable = new WeatherDataObservable();
 
         Observer temperature = new TemperatureObserver(observable);
         Observer humidity = new HumidityObserver(observable);
